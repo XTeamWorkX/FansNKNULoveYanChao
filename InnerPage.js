@@ -25,7 +25,9 @@ window.onload = function () {
             var movement = window.setInterval(frame,3);
         }
         move();
-
+        var node = document.createElement('iframe');
+        node.setAttribute("src","InnerPage2.html");
+        targetElem.appendChild(node);
         /*
         *   其他的div內縮
         */
@@ -42,11 +44,12 @@ window.onload = function () {
             }
             var movementSharp = window.setInterval(frameSharp,5);
         }
-        for(i = 0 ; i < 6 ; i++){
+        for(var i = 0 ; i < 6 ; i++){
             if(divArr[i] != targetID){
                 temp = document.getElementById(divArr[i]);
                 sharp(temp);
             }
         }
     },false);
+
 }
