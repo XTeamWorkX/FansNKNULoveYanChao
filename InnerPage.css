@@ -2,7 +2,7 @@ body{
     margin:0px auto;
     /*width:80%;
     height:80%;*/
-    width:500px;
+    width:650px;
 }
 body, #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
     height:500px;
@@ -10,20 +10,20 @@ body, #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
     border-radius:10px;
 }
 #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
-    width:81px;
+    width:106px;
     float:left;
     background-repeat:no-repeat;
     background-size:cover;
 }
 #Food{
-    background-image: url(/image/images%20\(1\).jpg);
+    //background-image: url(/image/_MG_1649\(%E5%8E%BB%E6%A8%B9\).jpg);
 }
 #Cloth{
-    background-image: url(/image/images%20\(2\).jpg);
+    //background-image: url(/image/B54_A094724.jpg);
 }
 #Live{
-    background-image: url(/image/images%20\(3\).jpg);
+    //background-image: url(/image/B62_A092753.jpg);
 }
 #Trip{
-    background-image: url(/image/images.jpg);
+    //background-image: url(/image/%E5%9C%96%E8%B3%873.JPG);
 }
