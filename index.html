@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <title>Fans高師.Love燕巢</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div id="screen">
         <div id="title"></div>
         <div id="l-side">
-            <div id="sec1"></div>
-            <div id="sec2"></div>
+            <div id="sec1" onclick=secPopup(1)></div>
+            <div id="sec2" onclick=secPopup(2)></div>
         </div>
         <div id="r-side">
             <div id="video"></div>
             <div id="link"></div>
         </div>
+    </div>
+    <div id="popup">
+        <iframe id="iframe" src="" frameborder="0" width="650" height="500"></iframe>
+    </div>
+    <div id="pageOverlay" onclick="closePopup()">
+
     </div>
 </body>
 </html>
