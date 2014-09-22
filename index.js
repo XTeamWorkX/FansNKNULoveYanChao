@@ -1,8 +1,8 @@
 var secPopup = function(number){
     var pop = document.getElementById('popup');
     pop.style.visibility = 'visible';
-    pop.style.top = window.innerHeight/2 - 325 + 'px';
-    pop.style.left = window.innerWidth/2 - 250 + 'px';
+    pop.style.top = window.innerHeight/2 - 350 + 'px';
+    pop.style.left = window.innerWidth/2 - 450 + 'px';
     document.getElementById('pageOverlay').style.visibility = 'visible';
     var iframe = document.getElementById('iframe');
     if(number == 2){
@@ -16,4 +16,5 @@ var secPopup = function(number){
 var closePopup = function(){
     document.getElementById('popup').style.visibility = 'hidden';
     document.getElementById('pageOverlay').style.visibility = 'hidden';
+
 }

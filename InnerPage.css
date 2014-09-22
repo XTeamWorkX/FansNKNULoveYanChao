@@ -2,15 +2,16 @@ body{
     margin:0px auto;
     /*width:80%;
     height:80%;*/
-    width:650px;
+    width:900px;
+    background-image: url(image/%E7%94%B7%E5%AE%BF.jpg)
 }
 body, #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
-    height:500px;
+    height:700px;
     border: 1px solid black;
     border-radius:10px;
 }
 #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
-    width:106px;
+    width:148px;
     float:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -24,6 +25,8 @@ body, #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
 #Live{
     //background-image: url(/image/B62_A092753.jpg);
 }
+
 #Trip{
     //background-image: url(/image/%E5%9C%96%E8%B3%873.JPG);
 }
+
