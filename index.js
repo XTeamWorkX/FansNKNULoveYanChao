@@ -1,8 +1,8 @@
 var secPopup = function(number){
     var pop = document.getElementById('popup');
     pop.style.visibility = 'visible';
-    pop.style.top = window.innerHeight/2 - 350 + 'px';
-    pop.style.left = window.innerWidth/2 - 450 + 'px';
+    pop.style.top = window.innerHeight/2 - 450 + 'px';
+    pop.style.left = window.innerWidth/2 - 360 + 'px';
     document.getElementById('pageOverlay').style.visibility = 'visible';
     var iframe = document.getElementById('iframe');
     if(number == 2){

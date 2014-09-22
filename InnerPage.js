@@ -10,8 +10,8 @@ window.onload = function () {
         var targetElem;
         var index;
         var isClick = false;
-        var eachFrameWide = 148;
-        var mainFrameWide = 713;
+        var eachFrameWide = 106;
+        var mainFrameWide = 600;
         if (!isClick) {
             targetID = event.target.id;
             for (var i = 0; i < 6; i++) {

@@ -2,11 +2,11 @@ body{
     margin:0px auto;
     /*width:80%;
     height:80%;*/
-    width:900px;
+    width:720px;
     background-image: url(image/%E7%94%B7%E5%AE%BF.jpg)
 }
 body, #Food, #Cloth, #Live, #Trip, #Edu, #Fun{
-    height:700px;
+    height:640px;
     border: 1px solid black;
     border-radius:10px;
 }
